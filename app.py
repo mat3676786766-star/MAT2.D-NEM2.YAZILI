@@ -5,7 +5,8 @@ try:
     import cv2
 except ImportError:
     os.system('pip install opencv-python-headless')
-import cv2
+    import cv2
+
 import numpy as np
 import time
 import random
